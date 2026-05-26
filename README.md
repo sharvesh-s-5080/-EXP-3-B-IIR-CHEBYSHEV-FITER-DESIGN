@@ -1,14 +1,13 @@
-# EXP 3 : IIR-CHEBYSHEV-FITER-DESIGN
+## EXP 3 B : IIR CHEBYSHEV FITER DESIGN
 
-## AIM: 
+### AIM: 
+ To design an IIR Butterworth filter using bilinear transformation in SCILAB. 
 
- To design an IIR Chebyshev filter  using SCILAB. 
-
-## APPARATUS REQUIRED: 
+### APPARATUS REQUIRED: 
 PC installed with SCILAB. 
 
-## PROGRAM (LPF): 
-```
+### PROGRAM (LPF): 
+```python
 clc;
 clear;
 close;
@@ -102,8 +101,9 @@ title("Frequency Response of Chebyshev Type-I IIR LPF");
 
 ```
 
-## PROGRAM (HPF): 
-```
+
+### PROGRAM (HPF): 
+```python
 lc;
 close;
 
@@ -163,11 +163,22 @@ plot(w/%pi, abs(HW));
 xlabel('Normalized Digital Frequency ×π rad/sample');
 ylabel('Magnitude');
 title('Frequency Response of Chebyshev IIR High-Pass Filter');
+
 ```
 
 
-## OUTPUT (LPF) : 
+### OUTPUT (LPF) : 
 
-## OUTPUT (HPF) : 
+<img width="413" height="455" alt="image" src="https://github.com/user-attachments/assets/695921c0-7cd9-4ea5-999a-7c719036eea5" />
+<img width="419" height="455" alt="image" src="https://github.com/user-attachments/assets/185261d5-fa23-4273-b7e0-9fb0e20e9e35" />
 
-## RESULT: 
+
+
+### OUTPUT (HPF) : 
+<img width="402" height="455" alt="image" src="https://github.com/user-attachments/assets/9a07374f-14f0-489e-94d1-f6d4b9939c94" />
+
+<img width="425" height="453" alt="image" src="https://github.com/user-attachments/assets/4f431c69-8a13-441e-850a-72b5774de5a2" />
+
+### RESULT: 
+Thus , the IIR Chebyshev filter was designed successfully using bilinear transformation in SCILAB.
+
